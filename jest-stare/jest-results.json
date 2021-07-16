@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1626474250074,
+  "startTime": 1626476954271,
   "success": false,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1626474252641,
-        "runtime": 1827,
+        "end": 1626476959067,
+        "runtime": 2906,
         "slow": false,
-        "start": 1626474250814
+        "start": 1626476956161
       },
       "skipped": false,
       "snapshot": {
@@ -58,7 +58,7 @@
           "ancestorTitles": [
             "Register Component"
           ],
-          "duration": 39,
+          "duration": 206,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Register Component changes state on typing in field with corresponding label name",
@@ -79,10 +79,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1626474252885,
-        "runtime": 2070,
+        "end": 1626476959727,
+        "runtime": 3567,
         "slow": false,
-        "start": 1626474250815
+        "start": 1626476956160
       },
       "skipped": false,
       "snapshot": {
@@ -100,7 +100,7 @@
           "ancestorTitles": [
             "ActivationPage Component"
           ],
-          "duration": 135,
+          "duration": 726,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "ActivationPage Component renders the ActivationPage component with activation button",
@@ -114,7 +114,7 @@
           "ancestorTitles": [
             "ActivationPage Component"
           ],
-          "duration": 170,
+          "duration": 242,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "ActivationPage Component Displays activation message on clicking the activation button",
