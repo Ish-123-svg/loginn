@@ -45,8 +45,7 @@ class Register extends React.Component {
     axios
       .post("http://localhost:3000/auth/register", loginObj)
       .then((response) => {
-        console.log(response.data);
-        this.setState({ redirected: true });
+        this.props.redirect();
       })
       .catch((err) => {
         throw err;
@@ -112,8 +111,6 @@ class Register extends React.Component {
           </div>
           <button onClick={this.handleSubmitRegistrationInfo}>Submit</button>
         </form>
-        <Link to="/login">Already Registered? Click Here.</Link>
-        {this.state.redirected && <Redirect to="/login" />}
       </div>
     );
   }

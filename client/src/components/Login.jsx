@@ -56,7 +56,6 @@ class Login extends React.Component {
           </div>
           <button onClick={this.handleSubmitLoginInfo}>Submit</button>
         </form>
-        <Link to="/register">Not Registered? Click Here.</Link>
       </div>
     );
   }

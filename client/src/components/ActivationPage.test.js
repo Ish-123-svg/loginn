@@ -19,9 +19,7 @@ describe("ActivationPage Component", () => {
       })
     );
     expect(
-      screen.getByText(
-        /FRS Activated, authorities notified. Please pick the option or options that best describe the situation:/i
-      )
+      screen.getByText(/FRS Activated, authorities notified/i)
     ).toBeTruthy();
   });
 });

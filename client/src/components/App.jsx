@@ -4,15 +4,19 @@ import {
   Redirect,
   Switch,
   Route,
+  Link,
 } from "react-router-dom";
 import Login from "./Login";
 import Register from "./Register";
 import ActivationPage from "./ActivationPage";
 
 const App = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const setAuth = (bool) => {
     setIsAuthenticated(bool);
+  };
+  const redirect = (endpoint) => {
+    <Redirect to="/login" />;
   };
   return (
     <Router>
@@ -34,7 +38,10 @@ const App = () => {
             path="/login"
             render={(props) =>
               !isAuthenticated ? (
-                <Login {...props} setAuth={setAuth} />
+                <div>
+                  <Login {...props} setAuth={setAuth} />
+                  <Link to="/register">Not Registered? Click Here.</Link>
+                </div>
               ) : (
                 <Redirect to="/activation" />
               )
@@ -45,7 +52,10 @@ const App = () => {
             path="/register"
             render={(props) =>
               !isAuthenticated ? (
-                <Register {...props} setAuth={setAuth} />
+                <div>
+                  <Register {...props} redirect={redirect} />
+                  <Link to="/login">Already Registered? Click Here.</Link>
+                </div>
               ) : (
                 <Redirect to="/activation" />
               )
