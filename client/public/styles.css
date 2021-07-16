@@ -1,10 +1,43 @@
-.activation-button {
-  margin: auto;
-  margin-top: 10vh;
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.activation-page {
   display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.activation-button {
+  height: 30vh;
+  width: auto;
   align-self: center;
-  width: 70vw;
-  height: 40vh;
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  padding: 5vh;
+}
+
+.threat-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.crisis-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 10vw;
-  padding: 5vh 10vw;
+}
+
+.disclaimer-and-instructions {
+  background-color: red;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 7vw;
 }

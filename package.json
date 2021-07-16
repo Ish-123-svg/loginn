@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --env=jsdom --reporters default jest-stare",
     "build": "webpack -w",
-    "start": "nodemon server/index.js"
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +27,9 @@
     "passport": "^0.4.1",
     "pg": "^8.6.0",
     "postgresql": "^0.0.1",
+    "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-mic": "^12.4.6",
     "react-router-dom": "^5.2.0",
     "twilio": "^3.63.1"
   },

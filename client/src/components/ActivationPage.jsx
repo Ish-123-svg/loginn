@@ -86,9 +86,15 @@ class ActivationPage extends React.Component {
         )}
         {active && (
           <div>
-            <div>Time Elapsed: {timeElapsed}</div>
-            FRS Activated, authorities notified. Please pick the option or
-            options that best describe the situation:
+            <div className="crisis-timer">Time Elapsed: {timeElapsed}</div>
+            <div className="disclaimer-and-instructions">
+              <em>
+                FRS Activated, authorities notified. Please get to a safe
+                distance and position, then select text, sound recording, and or
+                video recording and describe or capture the situation as best
+                you can ONLY once you are in a safe position.
+              </em>
+            </div>
             <ThreatType
               threatTypes={this.threatTypes}
               handleToggleEmergencyType={this.handleToggleEmergencyType}

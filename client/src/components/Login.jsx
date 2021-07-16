@@ -7,7 +7,6 @@ class Login extends React.Component {
     super(props);
 
     this.state = { usernameField: "", passwordField: "" };
-
     this.handleGetFields = this.handleGetFields.bind(this);
     this.handleSubmitLoginInfo = this.handleSubmitLoginInfo.bind(this);
   }

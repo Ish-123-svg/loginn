@@ -16,17 +16,13 @@ class Register extends React.Component {
       organization: "",
       redirected: false,
     };
-
-    this.handleSubmitRegistrationInfo =
-      this.handleSubmitRegistrationInfo.bind(this);
-    this.handleGetFields = this.handleGetFields.bind(this);
   }
 
-  handleGetFields(e) {
+  handleGetFields = (e) => {
     e.preventDefault();
     this.setState({ [e.target.name]: e.target.value });
-  }
-  handleSubmitRegistrationInfo(e) {
+  };
+  handleSubmitRegistrationInfo = (e) => {
     e.preventDefault();
     const {
       lastName,
@@ -55,7 +51,7 @@ class Register extends React.Component {
       .catch((err) => {
         throw err;
       });
-  }
+  };
 
   render() {
     return (
