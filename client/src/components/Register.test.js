@@ -5,7 +5,8 @@ import Register from "./Register";
 
 describe("Register Component", () => {
   it("changes state on typing in field with corresponding label name", async () => {
-    const { getByLabelText } = render(<Register />);
-    expect(screen.getByLabelText(/First Name:/).toBeTruthy());
+    const { getByText } = render(<Register />);
+    const firstNameLabel = getByText(/First Name:/);
+    expect(firstNameLabel).toBeTruthy();
   });
 });

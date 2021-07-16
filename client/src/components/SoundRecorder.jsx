@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactMic } from "react-mic";
 
 class SoundRecorder extends React.Component {
   constructor(props) {

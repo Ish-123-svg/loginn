@@ -29,7 +29,7 @@ class Login extends React.Component {
         this.props.setAuth(true);
       })
       .catch((err) => {
-        throw err;
+        console.log(err);
       });
   }
 

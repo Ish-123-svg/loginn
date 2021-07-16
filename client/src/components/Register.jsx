@@ -48,7 +48,7 @@ class Register extends React.Component {
         this.props.redirect();
       })
       .catch((err) => {
-        throw err;
+        console.log(err);
       });
   };
 

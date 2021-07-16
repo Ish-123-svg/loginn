@@ -1,14 +1,14 @@
 {
-  "numFailedTestSuites": 2,
-  "numFailedTests": 1,
-  "numPassedTestSuites": 0,
-  "numPassedTests": 0,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 3,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
-  "numRuntimeErrorTestSuites": 1,
+  "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
   "numTotalTestSuites": 2,
-  "numTotalTests": 1,
+  "numTotalTests": 3,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,49 +26,21 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1626472371870,
+  "startTime": 1626474250074,
   "success": false,
   "testResults": [
     {
-      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    TypeError: (window.AudioContext || window.webkitAudioContext) is not a constructor\n\n    \u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mReact\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"react\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mReactMic\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m\"react-mic\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 4 |\u001b[39m \u001b[36mclass\u001b[39m \u001b[33mSoundRecorder\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39m\u001b[33mComponent\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 5 |\u001b[39m   constructor(props) {\u001b[0m\n\n      \u001b[2mat Module.<anonymous> (\u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:1480)\u001b[22m\n      \u001b[2mat n (\u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:513)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:1403)\u001b[22m\n      \u001b[2mat n (\u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:513)\u001b[22m\n      \u001b[2mat \u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:1312\u001b[22m\n      \u001b[2mat \u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:1321\u001b[22m\n      \u001b[2mat \u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:163\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mnode_modules/react-mic/dist/index.js\u001b[2m:1:375)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mclient/src/components/SoundRecorder.jsx\u001b[2m:2:1)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mclient/src/components/ThreatType.jsx\u001b[2m:3:1)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22mclient/src/components/ActivationPage.jsx\u001b[2m:3:1)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mclient/src/components/ActivationPage.test.js\u001b[39m\u001b[0m\u001b[2m:5:1)\u001b[22m\n",
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 0,
+      "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 0,
-        "runtime": 0,
+        "end": 1626474252641,
+        "runtime": 1827,
         "slow": false,
-        "start": 0
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testExecError": "(window.AudioContext || window.webkitAudioContext) is not a constructor",
-      "testFilePath": "/root/stratum-zero/FRS/client/src/components/ActivationPage.test.js",
-      "testResults": []
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 1,
-      "numPassingTests": 0,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1626472375574,
-        "runtime": 2401,
-        "slow": false,
-        "start": 1626472373173
+        "start": 1626474250814
       },
       "skipped": false,
       "snapshot": {
@@ -86,22 +58,74 @@
           "ancestorTitles": [
             "Register Component"
           ],
-          "duration": 145,
-          "failureDetails": [
-            {}
-          ],
-          "failureMessages": [
-            "Error: Invariant failed: You should not use <Link> outside a <Router>\n    at invariant (/root/stratum-zero/FRS/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js:13:11)\n    at /root/stratum-zero/FRS/node_modules/react-router-dom/modules/Link.js:88:11\n    at updateContextConsumer (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:18747:19)\n    at beginWork (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:19114:14)\n    at HTMLUnknownElement.callCallback (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:3945:14)\n    at HTMLUnknownElement.callTheUserObjectsOperation (/root/stratum-zero/FRS/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n    at innerInvokeEventListeners (/root/stratum-zero/FRS/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n    at invokeEventListeners (/root/stratum-zero/FRS/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n    at HTMLUnknownElementImpl._dispatch (/root/stratum-zero/FRS/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n    at HTMLUnknownElementImpl.dispatchEvent (/root/stratum-zero/FRS/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n    at HTMLUnknownElement.dispatchEvent (/root/stratum-zero/FRS/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n    at Object.invokeGuardedCallbackDev (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:3994:16)\n    at invokeGuardedCallback (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:4056:31)\n    at beginWork$1 (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:23964:7)\n    at performUnitOfWork (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n    at workLoopSync (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n    at renderRootSync (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n    at performSyncWorkOnRoot (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n    at scheduleUpdateOnFiber (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:21881:7)\n    at updateContainer (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:25482:3)\n    at /root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:26021:7\n    at unbatchedUpdates (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:22431:12)\n    at legacyRenderSubtreeIntoContainer (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:26020:5)\n    at Object.render (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:26103:10)\n    at /root/stratum-zero/FRS/node_modules/@testing-library/react/dist/pure.js:101:25\n    at batchedUpdates$1 (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom.development.js:22380:12)\n    at act (/root/stratum-zero/FRS/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n    at render (/root/stratum-zero/FRS/node_modules/@testing-library/react/dist/pure.js:97:26)\n    at _callee$ (/root/stratum-zero/FRS/client/src/components/Register.test.js:8:32)\n    at tryCatch (/root/stratum-zero/FRS/node_modules/regenerator-runtime/runtime.js:63:40)\n    at Generator.invoke [as _invoke] (/root/stratum-zero/FRS/node_modules/regenerator-runtime/runtime.js:293:22)\n    at Generator.next (/root/stratum-zero/FRS/node_modules/regenerator-runtime/runtime.js:118:21)\n    at asyncGeneratorStep (/root/stratum-zero/FRS/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n    at _next (/root/stratum-zero/FRS/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n    at /root/stratum-zero/FRS/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (/root/stratum-zero/FRS/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)\n    at Promise.then.completed (/root/stratum-zero/FRS/node_modules/jest-circus/build/utils.js:316:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/root/stratum-zero/FRS/node_modules/jest-circus/build/utils.js:241:10)\n    at _callCircusTest (/root/stratum-zero/FRS/node_modules/jest-circus/build/run.js:218:40)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at _runTest (/root/stratum-zero/FRS/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/root/stratum-zero/FRS/node_modules/jest-circus/build/run.js:66:9)\n    at _runTestsForDescribeBlock (/root/stratum-zero/FRS/node_modules/jest-circus/build/run.js:60:9)\n    at run (/root/stratum-zero/FRS/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/root/stratum-zero/FRS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:166:21)\n    at jestAdapter (/root/stratum-zero/FRS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)\n    at runTestInternal (/root/stratum-zero/FRS/node_modules/jest-runner/build/runTest.js:389:16)\n    at runTest (/root/stratum-zero/FRS/node_modules/jest-runner/build/runTest.js:481:34)\n    at Object.worker (/root/stratum-zero/FRS/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
+          "duration": 39,
+          "failureDetails": [],
+          "failureMessages": [],
           "fullName": "Register Component changes state on typing in field with corresponding label name",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": "changes state on typing in field with corresponding label name"
         }
       ],
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mRegister Component › changes state on typing in field with corresponding label name\u001b[39m\u001b[22m\n\n    Invariant failed: You should not use <Link> outside a <Router>\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  6 |\u001b[39m describe(\u001b[32m\"Register Component\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 |\u001b[39m   it(\u001b[32m\"changes state on typing in field with corresponding label name\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m  8 |\u001b[39m     \u001b[36mconst\u001b[39m { getByLabelText } \u001b[33m=\u001b[39m render(\u001b[33m<\u001b[39m\u001b[33mRegister\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 |\u001b[39m     expect(screen\u001b[33m.\u001b[39mgetByLabelText(\u001b[35m/First Name:/\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy())\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat invariant (\u001b[22m\u001b[2mnode_modules/tiny-invariant/dist/tiny-invariant.cjs.js\u001b[2m:13:11)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/react-router-dom/modules/Link.js\u001b[2m:88:11\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat updateContextConsumer (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:18747:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat beginWork (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:19114:14)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat HTMLUnknownElement.callCallback (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:3945:14)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat HTMLUnknownElement.callTheUserObjectsOperation (\u001b[22m\u001b[2mnode_modules/jsdom/lib/jsdom/living/generated/EventListener.js\u001b[2m:26:30)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat innerInvokeEventListeners (\u001b[22m\u001b[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js\u001b[2m:338:25)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat invokeEventListeners (\u001b[22m\u001b[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js\u001b[2m:274:3)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat HTMLUnknownElementImpl._dispatch (\u001b[22m\u001b[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js\u001b[2m:221:9)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat HTMLUnknownElementImpl.dispatchEvent (\u001b[22m\u001b[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js\u001b[2m:94:17)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat HTMLUnknownElement.dispatchEvent (\u001b[22m\u001b[2mnode_modules/jsdom/lib/jsdom/living/generated/EventTarget.js\u001b[2m:231:34)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.invokeGuardedCallbackDev (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:3994:16)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat invokeGuardedCallback (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:4056:31)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat beginWork$1 (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:23964:7)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat performUnitOfWork (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:22779:12)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat workLoopSync (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:22707:5)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat renderRootSync (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:22670:7)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat performSyncWorkOnRoot (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:22293:18)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat scheduleUpdateOnFiber (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:21881:7)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat updateContainer (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:25482:3)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:26021:7\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat unbatchedUpdates (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:22431:12)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat legacyRenderSubtreeIntoContainer (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:26020:5)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.render (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:26103:10)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/react/dist/pure.js\u001b[2m:101:25\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat batchedUpdates$1 (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom.development.js\u001b[2m:22380:12)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat act (\u001b[22m\u001b[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js\u001b[2m:1042:14)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat render (\u001b[22m\u001b[2mnode_modules/@testing-library/react/dist/pure.js\u001b[2m:97:26)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat _callee$ (\u001b[22m\u001b[2m\u001b[0m\u001b[36mclient/src/components/Register.test.js\u001b[39m\u001b[0m\u001b[2m:8:32)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat tryCatch (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:63:40)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.invoke [as _invoke] (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:293:22)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.next (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:118:21)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat asyncGeneratorStep (\u001b[22m\u001b[2mnode_modules/@babel/runtime/helpers/asyncToGenerator.js\u001b[2m:3:24)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat _next (\u001b[22m\u001b[2mnode_modules/@babel/runtime/helpers/asyncToGenerator.js\u001b[2m:25:9)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@babel/runtime/helpers/asyncToGenerator.js\u001b[2m:32:7\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2mnode_modules/@babel/runtime/helpers/asyncToGenerator.js\u001b[2m:21:12)\u001b[22m\u001b[2m\u001b[22m\n"
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1626474252885,
+        "runtime": 2070,
+        "slow": false,
+        "start": 1626474250815
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/root/stratum-zero/FRS/client/src/components/ActivationPage.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "ActivationPage Component"
+          ],
+          "duration": 135,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "ActivationPage Component renders the ActivationPage component with activation button",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "renders the ActivationPage component with activation button"
+        },
+        {
+          "ancestorTitles": [
+            "ActivationPage Component"
+          ],
+          "duration": 170,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "ActivationPage Component Displays activation message on clicking the activation button",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Displays activation message on clicking the activation button"
+        }
+      ],
+      "failureMessage": null
     }
   ],
   "wasInterrupted": false

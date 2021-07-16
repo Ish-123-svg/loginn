@@ -68,7 +68,7 @@ class ActivationPage extends React.Component {
         this.handleGetUserLocation();
       })
       .catch((err) => {
-        throw err;
+        console.log(err);
       });
   }
 
